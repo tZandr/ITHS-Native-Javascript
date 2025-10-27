@@ -9,3 +9,5 @@ for (let i = 0; i < 4; i++) {
 }
 
 console.log(deck);
+
+// Aware that better solutions(suit of suits) exist, but this is how i generated the correct result the first time.
