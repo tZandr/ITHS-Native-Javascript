@@ -10,4 +10,4 @@ for (let i = 0; i < 4; i++) {
 
 console.log(deck);
 
-// Aware that better solutions(suit of suits) exist, but this is how i generated the correct result the first time.
+// Aware that better solutions(suit of suits) exist, but this is how i generated the correct result the first time. We were asked to not create a function.
