@@ -1,3 +1,3 @@
-let f = () => 0;
+let f = (a) => [a];
 
 console.log(f());
