@@ -1,0 +1,14 @@
+{
+  "a": "",
+  "b": " ",
+  "c": "c",
+  "d": 0,
+  "e": -1,
+  "f": 1,
+  "h": true,
+  "i": false,
+  "j": {},
+  "k": [],
+  "n": null,
+  "comment": "Removed all types not allowed in json(functions etc.)"
+}
