@@ -8,7 +8,7 @@ async function getCity() {
     const response = await fetch(
       "https://avancera.app/cities/?name=" +
         searchedCity +
-        "&population_gte=" +
+        "&minPopulation=" +
         minPopulation
     );
     const data = await response.json();
