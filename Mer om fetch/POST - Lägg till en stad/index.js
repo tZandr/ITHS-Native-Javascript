@@ -2,8 +2,11 @@ async function addCity() {
     let cityName = prompt('Vilken stad vill du lägga till?')
     let cityPopulation = prompt('Hur många bor där?')
     try {
-        let response = await fetch('https://avancera.app/cities/.', {
-            body: '{ "name": ' + cityName + ', "population": ' + cityPopulation + ' }',
+        let response = await fetch('https://avancera.app/cities/', {
+            body: JSON.stringify({
+                name: cityName,
+                population: Number(cityPopulation)
+            }),
             headers: {
                 'Content-Type': 'application/json'
             },
