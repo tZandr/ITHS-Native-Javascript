@@ -4,12 +4,11 @@ async function patchCity() {
     let cityPopulation = prompt('Hur många bor där? Svara i siffror.')
 
     let payload = {}
-    if (cityName !== '')
+    if (cityName !== null && cityName.trim() !== '')
         {payload.name = cityName.trim()}
-        else {payload.name = null}
-    if (cityPopulation !== '') 
+  
+    if (cityPopulation !== null && cityPopulation.trim() !== '') 
          {payload.population = Number(cityPopulation)}
-        else {payload.population = null}
 
     fetch(`https://avancera.app/cities/${cityID}`, {
         method: 'PATCH',
