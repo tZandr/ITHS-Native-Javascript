@@ -1,7 +1,5 @@
-let hoverArea = document.querySelector('#hover-area')
-
-function log() {
-  console.log('Hello hover')
+function updateDisplay(event) {
+  console.log(event.pageX);
 }
 
-hoverArea.addEventListener('mousemove', log)
+document.addEventListener("click", updateDisplay);
