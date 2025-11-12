@@ -1,5 +1,5 @@
 function logKey(keyboardEvent){
-  if (keyboardEvent.key !== false && keyboardEvent.key !== 'Shift'){
+  if (keyboardEvent.key !== false && keyboardEvent.shiftKey === true && keyboardEvent.key !== 'Shift'){
   console.log(keyboardEvent.key)
   }}
 
