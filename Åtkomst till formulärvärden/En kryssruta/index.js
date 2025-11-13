@@ -35,6 +35,7 @@ consent.addEventListener("change", errorCheck);
 // Makes sure errors are shown before input
 errorCheck();
 
+
 function greeting() {
   let n = input.value;
   document.querySelector("#greeting").textContent = "Hej " + n + "!";
