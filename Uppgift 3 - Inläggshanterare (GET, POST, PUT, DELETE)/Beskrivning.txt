@@ -1,0 +1,28 @@
+Beskrivning
+Mål
+
+Bygg en liten webbapp där användaren kan:
+
+    Visa alla inlägg
+
+    Skapa ett nytt inlägg
+
+    Uppdatera ett befintligt inlägg
+
+    Radera ett inlägg
+
+Appen behöver inte spara något på riktigt — JSONPlaceholder låtsas bara att datan ändras, men svarar som om det vore “riktigt”.
+
+
+
+    Lägg till sökfunktion för att filtrera inlägg efter titel.
+
+    Visa en statusruta (t.ex. “Inlägg uppdaterat!”).
+
+    Använd async/await för tydligare kod.
+
+    Lägg till en enkel loading animation under API-anrop.
+
+
+
+Api: https://jsonplaceholder.typicode.com/

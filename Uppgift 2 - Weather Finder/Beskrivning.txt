@@ -1,0 +1,39 @@
+
+Beskrivning
+
+Mål:
+
+Skapa en webbsida där användaren kan skriva in ett stadsnamn och få fram vädret för den staden.
+
+
+API:
+
+Open-Meteo API (kräver ingen API-nyckel): https://open-meteo.com/en/docs
+
+
+Exempel på API-anrop:
+
+https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude;=13.41&current;_weather=true
+https://jsonplaceholder.typicode.com/
+
+
+Instruktioner:
+
+1. Använd hårdkodat värde för latitutde och longitude
+
+2. Använd fetch för att hämta väderdata från API:et.
+
+3. Visa: Stadsnamn Temperatur Vindhastighet 4. Använd CSS för att visa resultatet i en snygg
+
+väderruta (kort).
+
+5. Lägg till ett laddningsmeddelande medan datan hämtas.
+
+6. Hantera fel – t.ex. om staden inte finns eller nätverket inte svarar.
+
+
+Extra utmaning:
+
+Ändra bakgrundsfärgen beroende på temperaturen:
+
+t.ex. blå för kallt väder, orange för varmt väder.

@@ -1,0 +1,37 @@
+
+Beskrivning
+
+Mål:
+
+Bygg en enkel webbsida som visar ett slumpmässigt skämt när du klickar på en knapp.
+
+
+API:
+
+Official Joke API: https://official-joke-api.appspot.com/random_joke
+
+
+Instruktioner:
+
+1. Skapa en HTML-sida med: En titel En knapp med texten “Hämta skämt” Ett <div>-element där
+
+skämtet ska visas 2. Använd Fetch för att hämta ett slumpmässigt skämt från API:et.
+
+3. Visa både setup och punchline på sidan.
+
+4. Lägg till enkel CSS för att göra sidan snyggare (centrerad layout, bakgrundsfärg, etc.).
+
+5. Hantera fel – visa ett meddelande om något går fel vid hämtningen.
+
+
+Exempel på API-svar:
+
+{ "setup": "Why did the scarecrow win an award?", "punchline": "Because he was outstanding in his
+
+field!" }
+
+
+Extra utmaning:
+
+Lägg till en enkel fade-in-animation när ett nytt skämt visas.
+Använd Storage för att visa upp sista skämt direkt vid onload
