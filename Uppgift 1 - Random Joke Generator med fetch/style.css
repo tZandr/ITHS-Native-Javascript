@@ -4,16 +4,26 @@
     margin: 0 auto;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
 div {
     width: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#punchline {
+    margin-top: 10px;
 }
