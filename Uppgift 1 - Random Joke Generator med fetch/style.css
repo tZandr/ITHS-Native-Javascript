@@ -33,10 +33,6 @@ div {
     margin-top: 10px;
 }
 
-button:hover {
-    padding: 6.5px 11.5px;
-}
-
 #tip {
     position: fixed;
     bottom: 0;
